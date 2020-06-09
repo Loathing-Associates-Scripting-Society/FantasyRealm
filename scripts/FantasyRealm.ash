@@ -1,5 +1,5 @@
 import "scripts/gain.ash";
-string __fantasyrealm_version = "1.2.2";
+string __fantasyrealm_version = "1.2.3";
 boolean __setting_bosses_ready = true;
 
 
@@ -1136,7 +1136,7 @@ FantasyRealmNextLocation FantasyRealmPickNextLocation()
         else
         {
             //collect arrest warrant:
-            FantasyRealmNextLocation next = FantasyRealmNextLocationToReachTarget($location[The Labyrinthine Crypt], 1297, 3, $items[FantasyRealm Warrior's Helm], false);
+            FantasyRealmNextLocation next = FantasyRealmNextLocationToReachTarget($location[The Labyrinthine Crypt], 1297, 3, $items[FantasyRealm Rogue's Mask], false);
             if (next.valid) return next;
         }
     }
